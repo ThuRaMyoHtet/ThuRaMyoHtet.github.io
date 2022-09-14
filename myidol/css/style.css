@@ -20,8 +20,22 @@
     animation-delay: calc(0.2s * var(--i));
   }
   @keyframes flip {
-    0%,
-    80% {
+    0%,80% {
       transform: rotateY(360deg);
     }
+  }
+
+  /* Popular song modal css */
+  .modal-dialog{ 
+    max-width: 80px;
+    margin: 30px auto;
+  }
+  .modal-body{ 
+    position: relative;
+    padding: 0px;
+  }
+  .btn-close { 
+    position: absolute;
+    top: 0;
+    right: -30px;
   }
